@@ -1,0 +1,27 @@
+.about{
+    width: 80%;
+    height: 400px;
+    margin: 0 10% 0 10%;
+    padding-top: 70px;
+
+    .textBox{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        h1{
+            color: #4B88A2;
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 500;
+        }
+    
+        p{
+            color: #D3D4D9;
+            font-family:Montserrat;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+    }
+    
+    
+}
