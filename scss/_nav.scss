@@ -5,7 +5,7 @@ nav{
 
     .aList{
        padding-top: 40px;
-       margin-left: 20%;
+       margin-left: 28%;
 
         li{
             display: inline;
@@ -17,6 +17,11 @@ nav{
             font-family: Montserrat;
             font-size: 30px;
             margin-left: 25px;
+            transition:0.3s ;
         }
+        a:hover{
+            text-shadow: 2px 2px 2px #4B88A2;
+        }
+
     }
 }

@@ -7,41 +7,46 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <nav>
         <ul class="aList">
             <li>
-                <a href="">About me</a>
+                <a href="#about">About me</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="">My HardSkills</a>
+            </li> -->
+            <li>
+                <a href="#projects">My Projects</a>
             </li>
             <li>
-                <a href="">My Projects</a>
-            </li>
-            <li>
-                <a href="">Contacts</a>
+                <a href="#contacts">Contacts</a>
             </li>
         </ul>
     </nav>
-    <div class="about">
+    <section class="about" id="about">
         <div class="textBox">
             <h1>About me</h1>
             <p>Hello!
-                My name is Daniil Komin.I'm beginner in frontend learning.
-                It's my personal website,where you could see,some information about 
-                my skills and my development success.
-                Now,i'm learning new technologies for me,and i really like it!
-                My dream is to be frontend Jedi and, i think,i'm closer to this step by step. 
+                My name is Daniil Komin.
+                I'm beginner in frontend development.
+            </p>
+            <p>It's my personal website, where you could see, some information about 
+                my skills and my learning progress.
+                Now, i'm learning new technologies for me, and i really like it!
+            </p> 
+            <p>
+                My dream is to be frontend Jedi and, i think, i'm closer to this step by step.
             </p>
         </div>
        
-        <img src="" alt="">
+        <div class="photo"></div>
                
-    </div>
-    <div class="hardskills">
+    </section>
+    <!-- <section class="hardskills">
         <h1>My Hard Skills</h1>
         <ul>
             <div class="liBox">
@@ -54,37 +59,49 @@
             </div>
             
         </ul>
-    </div>
-    <div class="projects">
+    </section> -->
+    <section class="projects" id="projects">
         <h1>My Projects</h1>
         <div class="cardsBox">
             <div class="projectCard">
-                <div class="title">
-                    <a href="https://daniilcome1n.github.io/Bikees/" target="_blank">Bikees</a>
+                <div class="title bikees">
+                    <a href="https://daniilcome1n.github.io/Bikees/" target="_blank"></a>
                 </div>
                 <h3>HTML/CSS</h3>
                 <p>Simple,responsive landing page.</p>
             </div>
             <div class="projectCard">
-                <div class="title">
-                    <a href="https://daniilcome1n.github.io/JapanFood/" target="_blank">Japan Food</a>
+                <div class="title japan">
+                    <a href="https://daniilcome1n.github.io/JapanFood/" target="_blank"></a>
                 </div>
                 <h3>HTML/CSS/SASS</h3>
                 <p>Responsive website with SASS using</p>
             </div>
             <div class="projectCard">
-                <div class="title">
-                    <a href="https://daniilcome1n.github.io/SortOnJS/" target="_blank">Sort on JS</a>
+                <div class="title sort">
+                    <a href="https://daniilcome1n.github.io/SortOnJS/" target="_blank"></a>
                 </div>
                 <h3>HTML/CSS/JavaScript</h3>
                 <p>Ascending/descending sort implementation</p>
             </div>
         </div>
        
-    </div>
-    <div class="contacts">
-        <h1>Contacts</h1>
-            
-    </div>
+    </section>
+    <footer class="contacts" id="contacts">
+        <div class="col1 contCol">
+            <a href="tel:+79876429157" target="_blank">My phone number</a>
+        </div>
+        <div class="col2 contCol">
+            <a href="https://github.com/DaniilCome1n" target="_blank">Profile on GitHub</a>
+            <a href="mailto:whsr@yandex.ru" target="_blank" class="mail">E-mail</a>
+        </div>
+        <div class="col3 contCol">
+            <a href="https://t.me/KominDaniil" target="_blank">Write me on Telegram</a>
+        </div>
+        
+    
+        
+    </footer>
+    
 </body>
 </html>

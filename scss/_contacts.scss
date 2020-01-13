@@ -1,0 +1,41 @@
+.contacts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: hsla(338, 5%, 70%, 0.534);
+    height: 150px;
+    
+    .col1{
+        padding-top: 60px;
+    }
+    .col2{
+        padding-top: 30px;
+    }
+    .col3{
+        padding-top: 60px;
+    }
+
+    .contCol{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8.5%;
+
+        a{
+            display: block;
+            color: #252627;
+            font-family: Montserrat;
+            font-size: 30px;
+            transition: 0.3s;  
+        } 
+
+        a:hover{
+            text-shadow: 2px 2px 2px #4B88A2;
+        }
+
+        .mail{
+        padding-top: 30px;
+        text-align: center;
+        }
+    }
+      
+}

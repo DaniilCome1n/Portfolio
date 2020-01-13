@@ -1,6 +1,8 @@
 .about{
+    display: flex;
+    flex-direction: row;
     width: 80%;
-    height: 400px;
+    height: 350px;
     margin: 0 10% 0 10%;
     padding-top: 70px;
 
@@ -8,7 +10,11 @@
         display: flex;
         flex-direction: column;
         width: 50%;
+        margin-left: 5%;
         h1{
+            display: block;
+            margin-left:28%;
+            margin-bottom: 10px;
             color: #4B88A2;
             font-family: Montserrat;
             font-size: 40px;
@@ -20,7 +26,19 @@
             font-family:Montserrat;
             font-size: 30px;
             padding-top: 10px;
+            text-indent: -10px;
         }
+
+        
+    }
+    .photo{
+        border-radius: 250px;
+        width: 250px;
+        height: 250px;
+        margin-left: 15%;
+        margin-top: 50px;
+        background-image: url(../img/photo.png);
+        background-size: 250px 250px;
     }
     
     
