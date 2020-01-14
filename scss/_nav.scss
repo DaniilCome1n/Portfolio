@@ -25,3 +25,22 @@ nav{
 
     }
 }
+
+@media (max-width: 376px){
+    nav{
+        height: 110px;
+        .aList{
+            padding-top: 5px;
+            margin-left: 0;
+            li{
+                display: list-item;
+                text-align: center;
+                margin-top: 3px;
+            }
+            a{
+                margin: 0;
+            }
+            
+        }
+    }
+}
