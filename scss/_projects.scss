@@ -1,7 +1,7 @@
 .projects{
-    width: 80%;
+    width: 90%;
     height: 500px;
-    margin: 0 10% 0 10%;
+    margin: 0 5% 0 5%;
     padding-top: 70px;
     h1{
         text-align: center;
@@ -15,10 +15,11 @@
         flex-direction: row;
 
         .projectCard{
-            margin-left: 3%;
+            margin-left: 1%;
             width: 300px;
             height: 400px;
             text-align: center;
+            
             
             .title{
                 
@@ -28,11 +29,13 @@
                 background-repeat: no-repeat;
                 background-size: 300px 300px;
                 box-shadow: 5px 5px 0 #5d6063;
+                
                 transition: 0.3s;
     
                 a{
                     display: block;
                     height: 100%;
+                    border: 1px solid #4B88A2;
                 }
             }
 
@@ -61,7 +64,10 @@
             background-image: url(../img/sushi.png);
         }
         .sort{
-            background-image: url(../img/sort.png);;
+            background-image: url(../img/sort.png);
+        }
+        .todo{
+            background-image: url(../img/todo.png);
         }
     }  
 }
@@ -81,11 +87,8 @@
             margin-left:25px;
             .projectCard{
                 margin-top: 15px;
-                .title{
-                    a{}
-                }
-                h3{}
-                p{}
+                
+                
             }
         }
     }
