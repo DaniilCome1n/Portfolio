@@ -14,12 +14,16 @@
     .cardsBox {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
 
         .projectCard {
-            margin-left: 1%;
+            margin-left: 3%;
             width: 300px;
             height: 400px;
             text-align: center;
+            margin-bottom: 30px;
 
 
             .title {
@@ -74,6 +78,10 @@
 
         .todo {
             background-image: url(../img/todo.png);
+        }
+
+        .select {
+            background-image: url(../img/select.png);
         }
     }
 }
