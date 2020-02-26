@@ -1,67 +1,154 @@
-.contacts{
+.contacts {
     display: flex;
     flex-direction: row;
     width: 100%;
     background-color: hsla(338, 5%, 70%, 0.534);
-    height: 150px;
-    
-    .col1{
-        padding-top: 60px;
-    }
-    .col2{
-        padding-top: 30px;
-    }
-    .col3{
+
+
+    .col1 {
         padding-top: 60px;
     }
 
-    .contCol{
+    .col2 {
+        padding-top: 30px;
+    }
+
+    .col3 {
+        padding-top: 60px;
+    }
+
+    .contCol {
         display: flex;
         flex-direction: column;
         margin-left: 8.5%;
 
-        a{
+        a {
             display: block;
             color: #252627;
             font-family: Montserrat;
             font-size: 30px;
-            transition: 0.3s;  
-        } 
+            transition: 0.3s;
+        }
 
-        a:hover{
+        a:hover {
             text-shadow: 2px 2px 2px #4B88A2;
         }
 
-        .mail{
-        padding-top: 30px;
-        text-align: center;
+        .mail {
+            padding-top: 30px;
+            text-align: center;
         }
     }
-      
+
 }
 
-@media (max-width: 376px){
-    .contacts{
+@media (max-width: 376px) {
+    .contacts {
         flex-direction: column;
-        height: 150px;
+
         padding-top: 20px;
-        .col1{
+
+        .col1 {
             padding: 0;
         }
-        .col2{
+
+        .col2 {
             padding: 0;
         }
-        .col3{
+
+        .col3 {
             padding: 0;
         }
-        .contCol{
+
+        .contCol {
             margin: 0;
-            a{
+
+            a {
                 text-align: center;
             }
-            .mail{
+
+            .mail {
                 padding: 0;
             }
         }
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .contacts {
+        flex-direction: row;
+        height: 150px;
+        padding-top: 20px;
+
+        .col1 {
+            padding: 0;
+        }
+
+        .col2 {
+            padding: 0;
+        }
+
+        .col3 {
+            padding: 0;
+        }
+
+        .contCol {
+            margin: 0;
+
+            a {
+                text-align: center;
+            }
+
+            .mail {
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1920px) {
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: hsla(338, 5%, 70%, 0.534);
+
+
+        .col1 {
+            padding-top: 60px;
+        }
+
+        .col2 {
+            padding-top: 30px;
+        }
+
+        .col3 {
+            padding-top: 60px;
+        }
+
+        .contCol {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+
+            a {
+                display: block;
+                color: #252627;
+                font-family: Montserrat;
+                font-size: 40px;
+                transition: 0.3s;
+            }
+
+            a:hover {
+                text-shadow: 2px 2px 2px #4B88A2;
+            }
+
+            .mail {
+                padding-top: 30px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+
     }
 }

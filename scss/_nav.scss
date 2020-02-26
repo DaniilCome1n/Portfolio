@@ -1,46 +1,96 @@
-nav{
+nav {
     width: 100%;
     height: 100px;
     background-color: hsla(336, 100%, 99%, 0.534);
 
-    .aList{
-       padding-top: 40px;
-       margin-left: 28%;
+    .aList {
+        padding-top: 40px;
+        margin-left: 28%;
 
-        li{
+        li {
             display: inline;
-            
+
         }
 
-        a{
+        a {
             color: #252627;
             font-family: Montserrat;
             font-size: 30px;
             margin-left: 25px;
-            transition:0.3s ;
+            transition: 0.3s;
         }
-        a:hover{
+
+        a:hover {
             text-shadow: 2px 2px 2px #4B88A2;
         }
 
     }
 }
 
-@media (max-width: 376px){
-    nav{
+@media (max-width: 376px) {
+    nav {
         height: 110px;
-        .aList{
+
+        .aList {
             padding-top: 5px;
             margin-left: 0;
-            li{
+
+            li {
                 display: list-item;
                 text-align: center;
                 margin-top: 3px;
             }
-            a{
+
+            a {
                 margin: 0;
             }
-            
+
         }
     }
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+    nav {
+        width: 100%;
+
+
+        .aList {
+            margin-left: 13%;
+
+        }
+    }
+
+
+}
+
+@media (min-width: 1400px) and (max-width: 1920px) {
+    nav {
+        width: 100%;
+
+        background-color: hsla(336, 100%, 99%, 0.534);
+
+        .aList {
+            padding-top: 30px;
+            margin-left: 28%;
+
+            li {
+                display: inline;
+
+            }
+
+            a {
+                color: #252627;
+                font-family: Montserrat;
+                font-size: 50px;
+                margin-left: 25px;
+                transition: 0.3s;
+            }
+
+            a:hover {
+                text-shadow: 2px 2px 2px #4B88A2;
+            }
+
+        }
+    }
+
 }
